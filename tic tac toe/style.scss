@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: green;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+}
+.flex-column{
+    flex-direction:column;
+}
+.flex-center{
+   // justify-content:center;
+    align-items: center;
+}
+.board-container {
+    height: 100%;
+    width: 100%;
+}
+.board{
+    width: 330px;
+    flex-wrap:wrap;
+}
+.square {
+    width:100px;
+    height:100px;
+    border: 3px solid  rgb(128, 126, 126);
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+.square:hover {
+    background-color: floralwhite;
+}
+.winner {
+    display: none;
+    padding:2em;
+}
+button{
+    padding:1em;
+    margin:1em;
+    background-color: floralwhite;
+    border-style: none;
+    border-radius: 5%;
+}
